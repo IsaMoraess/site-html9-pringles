@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@400;500;600;700 & family= Poppins:wght@100;200;300;400;500 & family= Roboto:wght@100;300;400;500;700 & family= Sometype+Mono:wght@500;600;700 & display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    border: none;
+}
+
+html::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 5rem;
+}
+
+.background {
+    background-image: url(./img/batatas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    background-color: rgb(173, 216, 230);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 1.5rem;
+    align-items: center;
+}
+
+.logo img {
+    width: 75px;
+    height: auto;
+    margin-left: 5rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s;
+    font-size: 1.5rem;
+    font-family: 'Halvetica';
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.C-icon {
+    margin-right: 5rem;
+}
+
+.Icone ion-icon {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+ul li a:hover {
+    text-transform: capitalize;
+    color: rgb(255, 0, 0);
+    border-bottom: solid 1px;
+}
+
+hr {
+    border-bottom: solid 0.1px;
+    color: rgb(255, 0, 0);
+    margin-top: 15px;
+}
+
+.C-title {
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+
+.C-title h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.C-title p {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.C-title button {
+    margin-top: 2rem;
+    background-color: #ff0303;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.C-title button:hover {
+    letter-spacing: 2px;
+    transition: 0.3s all;
+}
+
+.section-1 h1 {
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+.section-1 span {
+    color: #EA002A;
+}
+
+.section-1 {
+    padding: 5rem;
+}
+
+.sobre-nos {
+    display: flex;
+    background-color: #034EA2;
+    margin-top: 2rem;
+    padding: 10px;
+    width: 100%;
+}
+
+.sobre-nos img {
+    padding-top: 35px;
+    width: 100%;
+    max-width: 150px;
+}
+
+.sobre-nos-title {
+    margin-left: 1.3rem;
+}
+
+.sobre-nos-title h2 {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.sobre-nos-title p {
+    line-height: 2rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: #ffffff;
+    width: 45rem;
+}
+
+.sobre-nos-title button {
+    margin-top: 2rem;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.sobre-nos-title button:hover {
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.section-2 h1 {
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+.section-2 span {
+    color: #ff0000;
+}
+
+.container-card-1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card-img {
+    border: solid 3px #2a3ff7;
+    padding: 2rem;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    width: 25rem;
+    height: 23rem;
+}
+
+.card-img img {
+    width: 120px;
+    height: auto;
+}
+
+.card-img h3 {
+    font-size: 1.0rem;
+    color: #ff0000;
+}
+
+.card-img p {
+    color: #000000;
+    font-size: 1.8rem;
+}
+
+.card-img button {
+    background-color: rgb(255, 230, 4);
+    color: #000000;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.card-img span {
+    color: #ff0000;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.card-img:hover {
+    transform: scale(1.1);
+    transition: 0.5s all;
+    background-color: #fcfcfc;
+}
+
+#container-card-2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section-3 h1 {
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.section-3 span {
+    color: #EA002A;
+}
+
+.container-clientes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.paragrafo {
+    border: solid 3px #2a3ff7;
+    padding: 3rem;
+    width: 100%;
+}
+
+.paragrafo img {
+    width: 85px;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.paragrafo p {
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+
+.paragrafo h4 {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.section-4 {
+    padding: 0 10rem 0 10rem;
+}
+
+.section-4 h1 {
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+form {
+    background-color: rgb(247, 247, 247);
+    padding: 2rem;
+    width: 50rem;
+    height: auto;
+}
+
+form h3 {
+    text-align: center;
+    color: #0400ff;
+    font-size: 2rem;
+}
+
+.section-4 .container-form .map {
+    width: 100%;
+    flex: 1.45rem;
+    object-fit: cover;
+}
+
+.inputform {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 1rem;
+    margin-top: 1rem;
+    background-color: rgb(235, 223, 118);
+}
+
+.inputform input {
+    width: 100%;
+    padding: 1.5rem;
+    background: rgb(255, 233, 118);
+}
+
+.inputform span {
+    font-size: 1.5rem;
+    color: #001aff;
+}
+
+form button {
+    margin-top: 2rem;
+    background-color: rgb(173, 179, 226);
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+}
+
+form button:hover {
+    letter-spacing: 2px;
+    transition: 0.3s all;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    width: 100%;
+    color: #ffffff;
+}
+
+#footer_content{
+    background-color: #034EA2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1{
+    margin-bottom: 0.75rem;
+}
+
+.footer-link{
+    text-decoration: none;
+}
+
+#footer_social_media{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+#footer_social_media .footer-link:hover{
+    opacity: 0.8;
+}
+
+#footer_social_media .footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #ffffff;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#Instagram{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#Facebook{
+    background-color: #4267b3;
+}
+
+#YouTube{
+    background-color: #EA002A;
+}
+
+#TikTok{
+    background: linear-gradient(#000000, #FF2D4E, #00A86B);
+}
+
+.footer-list{
+    display: flex;
+    text-align: center;
+    gap: 5rem;
+    color: #ffffff;
+}
+
+.footer-list a{
+    color: #ffffff;
+}
+
+@media (max-width:1033px) {
+    .sobre-nos img {
+        display: none;
+    }
+
+    .sobre-nos {
+        padding: 25px;
+    }
+
+    .sobre-nos-title p {
+        font-size: 18px;
+    }
+
+    .container-card-1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 25px;
+    }
+
+    .container-clientes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:925px) {
+    ul li a {
+        font-size: 1rem;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    .Icone ion-icon {
+        font-size: 1rem;
+    }
+
+    .sobre-nos-title p {
+        width: 550px;
+    }
+}
+
+@media (max-width:737px) {
+    .logo img {
+        width: 35px;
+    }
+
+    ul li a {
+        font-size: 12px;
+    }
+
+    .Icone ion-icon {
+        font-size: 12px;
+    }
+
+    .C-title h1 {
+        font-size: 1.8rem;
+    }
+
+    .C-title p {
+        font-size: 1rem;
+        width: 400px;
+    }
+
+    .C-title button {
+        font-size: 1rem;
+    }
+
+    .sobre-nos-title p {
+        width: 450px;
+    }
+
+    .container-form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width:657px) {
+    ul {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .sobre-nos-title p {
+        width: 380px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width:583px) {
+    .sobre-nos-title p {
+        width: 290px;
+    }
+
+    .sobre-nos-title button {
+        font-size: 0.8rem;
+    }
+
+    .section-1 h1 {
+        font-size: 1.8rem;
+    }
+
+    .section-2 h1 {
+        font-size: 1.8rem;
+    }
+
+    .section-3 h1 {
+        font-size: 1.8rem;
+    }
+
+    .section-4 h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:533px) {
+    .links {
+        display: none;
+    }
+
+    .C-icon {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: block;
+        color: #fff;
+        font-size: 20px;
+        margin: 0 40px 0 0;
+    }
+}
+
+@media (max-width:481px) {
+    .C-title h1 {
+        font-size: 1.2rem;
+    }
+
+    .C-title p {
+        font-size: 0.8rem;
+        width: 290px;
+    }
+
+    .C-title button {
+        font-size: 0.8rem;
+    }
+
+    .sobre-nos-title p {
+        width: 225px;
+    }
+
+    .sobre-nos-title h2 {
+        font-size: 1.2rem;
+    }
+
+    form h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:431px) {
+    .sobre-nos-title p {
+        width: 190px;
+    }
+}
+
+@media (max-width:365px) {
+    .sobre-nos-title p {
+        width: 125px;
+    }
+}
+
+@media (max-width:365px) {
+    .C-title h1 {
+        font-size: 1rem;
+    }
+
+    .C-title p {
+        font-size: 0.7rem;
+        width: 240px;
+    }
+}
+
+@media (max-width:317px) {
+    .sobre-nos-title p {
+        width: 90px;
+    }
+
+    .C-title h1 {
+        font-size: 0.8rem;
+    }
+
+    .C-title p {
+        font-size: 0.5rem;
+        width: 190px;
+    }
+
+    .C-title button {
+        font-size: 0.5rem;
+    }
+
+    .sobre-nos-title button {
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width:295px) {
+    .sobre-nos-title p {
+        font-size: 8px;
+        line-height: 10px;
+        width: 60px;
+    }
+
+    .sobre-nos-title button {
+        font-size: 0.3rem;
+    }
+
+    .sobre-nos-title h2 {
+        font-size: 0.5rem;
+    }
+
+}
